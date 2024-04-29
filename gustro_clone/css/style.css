@@ -1,0 +1,472 @@
+body{
+    padding:0 auto;
+    margin:0 auto;
+}
+
+.pagecenter {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+.combine
+{
+	float: left;
+    width: 100%;
+    /* background-image: url(../images/intro-bg.jpg); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 59%, rgba(0, 0, 0, 0.4) 100%), url(../images/china/restaurant-3489236_1920.jpg) no-repeat;
+    background-size:100% 140%;
+    background-repeat: no-repeat;
+}
+.header {
+	float:left;
+    color: white;
+    width: 100%;
+	text-align:center;
+    position: fixed;
+    background-color: black;
+}
+.menu li:hover{
+    color: red;
+}
+
+.menu li{
+	display:inline;
+	margin: 0em 4em;
+	font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;	
+    color:white;
+     }
+.logo_section
+{
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 3em 0em;
+    margin: 0ch;
+}
+.logo_section h2{
+	font-family: 'Rochester', cursive;
+    color: #fff;
+    font-size: 140px;
+    font-weight: 400;
+    padding-top: 1em;
+}
+.logo_section p{
+	font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10.5em;
+}
+.specials
+{
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 3em 0em;
+
+}
+.specials h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+}
+.section1
+{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.section2
+{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}.section3
+{
+    float:right;
+    width: 33.3%;
+    text-align: center;
+}
+.section1 h3,.section2 h3,.section3 h3{ 
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+.section1 img,.section2 img,.section3 img {
+    width: 75%;
+  }
+  .section1 p,.section2 p,.section3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;line-height: 1.25;
+    text-align: center;
+    padding: 0em 3em;
+  }
+
+  
+  .side_by_side{
+	float:left;
+	width:100%;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.side_img img
+{
+   float:left;
+   width:50%
+
+}
+.side_content
+{
+	
+	float: right;
+	width: 50%;
+	background-color: #f8f5f5;
+	margin: 0;
+	
+}
+.side_content h3{
+	padding-top: 50px;
+	font-family:"Raleway",sans-serif ;
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.side_content p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+	line-height: 1.99rem;
+	max-width: 45%;
+	font-size: 15px;
+    font-weight: 300;
+    margin: 1rem;
+}
+.table{
+    float: left;
+    width: 100%;
+    background: white;
+    margin-top: 3em;
+    
+ }
+ .table h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 1rem;
+ }
+ .breakfast,.dinner
+ {
+    float: left;
+    width: 40%;
+    background: white;
+    padding-left: 5em;
+ }
+ .breakfast h4,.dinner h4{
+    font-family: "Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+
+ }
+ .title_container1
+ {
+    float: left;
+    width:100%;
+    margin: 3%;
+ }
+
+ 
+ .title_cost1
+ {
+    float:left;
+    width:100%; 
+  
+ }
+ .t1{
+    float: left;
+    width:75%;
+ }
+ 
+ .t1 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;	
+    text-align: left;
+    color:black;
+    margin:0;
+
+ }
+ .cost1 {
+    float:right;
+    width:25%;
+    float: right;
+    font-weight: 400;
+    font-size: 20px;
+    margin:0;
+ }
+ .cost1 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;	
+    color: #555;
+    margin: 0;
+
+ }
+ .dish_descr {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.dish_descr p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color:black;
+    text-align: left;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/*maincourse starts*/
+.main_course,.deserts
+ {
+    float:right;
+    width: 40%;
+    background: white;
+    padding-right: 5em;
+   
+ }
+ .main_course h4,.deserts h4{
+    font-family: "Raleway",sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem
+ }
+  .list_img {
+    float: left;
+    width: 100%;
+    padding-top: 10em;
+  }
+  .list_img ul li{
+    display: inline;
+  }
+  .list_img ul{
+    padding: 0;
+}
+ .list_img ul li img{
+    width: 24.5%;
+ }  
+ .side_by_side2{
+	float:left;
+	width:100%;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.content
+{
+	float: left;
+	width: 55%;
+    margin: 0;
+}
+.content h3{
+	padding-top: 50px;
+	font-family:"Raleway",sans-serif ;
+	font-size: 35px;
+	font-weight: 200;
+	text-align: center;
+    margin: 1rem;
+}
+.content p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: "Raleway",sans-serif;
+	text-align: left;
+	line-height: 1.65rem;
+	max-width: 49%;
+	font-size: 15px;
+    font-weight: 300;
+    padding-left: 30%;
+    padding-top: 20px;
+    margin: 0;
+}
+.image{
+    float: right;
+    width:45%;
+    margin: 0;
+
+}
+.blackscreen{
+    float:left;
+    width:100%;
+    background-color: #323131;
+}
+.text3{
+    float: left;
+    width:100%;
+    padding-top: 10%;
+}
+.reser{
+    float: left;
+    width:33.3%;
+    color:#6f6e6e;
+    margin: 0;
+}
+.reser h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;	
+    text-align: center;
+}
+.reser p{
+    padding-left: 5%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.90rem;
+    margin: 1rem;
+}
+.address{
+    float: right;
+    width:33.3%;
+    color:#6f6e6e;
+}
+.address h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;	
+    text-align: center;
+}
+
+.address p{
+    padding-left: 5%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.90rem;
+    margin:1rem;
+   
+}
+.interact{
+	float:left;
+	width:100%;
+    padding-top: 2em;
+}
+.interact h4{
+	text-align: center;
+	color: #ede9e9;
+	font-size: 18px;
+    font-family: "Raleway",sans-serif;
+	font-weight: 400;}
+
+.form{
+    float:left;
+    width:95%;
+    padding: 4em 0em;
+}
+.name_email{
+    float:left;
+    width:100%;
+}
+.name {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.pagecenter123{
+    float: none;
+    width: 65%;
+    margin: 0 auto;
+    max-width: 65%;
+    text-align: center;
+}
+.name li{
+    display: inline;
+}
+.box
+{
+    display: inline;
+    width: 35%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, .2);
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+    margin:0.9em;
+}
+.message{
+    float: left;
+    width:100%;
+    padding-left: 2.5em;
+    margin: 0;
+}
+.box1{
+    display: inline;
+    width: 78%;
+    padding-bottom: 5rem; 
+   
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, .2);
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+    margin:0.9em;
+}
+.send{
+    float: right;
+    width: 80%;
+    padding-right:3.5em;
+}
+.box2{
+text-transform: uppercase;
+color: #777;
+background-color: transparent;
+border: 2px solid #777;
+padding: 15px 35px;
+margin: 0;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 0.5px;
+border-radius: 0;
+margin-top: 20px;
+transition: all 0.3s;
+}
+.box2:hover{
+    background-color: red;
+    color: white;
+}
+hr{
+	border: 1px solid red;
+	width:5%;
+	margin: 0 auto;
+}
